@@ -1,1 +1,134 @@
+@use '@angular/material' as mat;
+@include mat.core();
+
+// Define $custom-primary-color here in styles.scss
+$custom-primary-color: (
+  50 : #f4e7e8,
+  100 : #e3c4c6,
+  200 : #d09ca1,
+  300 : #bd747b,
+  400 : #ae575e,
+  500 : var(--red-color),
+  600 : #98333c,
+  700 : #8e2c33,
+  800 : #84242b,
+  900 : #73171d,
+  A100 : #ffacb0,
+  A200 : #ff7980,
+  A400 : #ff4650,
+  A700 : #ff2c38,
+  contrast: (50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #ffffff,
+    500 : #ffffff,
+    600 : #ffffff,
+    700 : #ffffff,
+    800 : #ffffff,
+    900 : #ffffff,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #ffffff,
+    A700 : #ffffff,
+  )
+);
+
+$custom-secondary-color: (
+  50 : #fdfbee,
+  100 : #fbf4d5,
+  200 : #f9edb9,
+  300 : #f6e69d,
+  400 : #f4e088,
+  500 : var(--yellow-color),
+  600 : #f0d76b,
+  700 : #eed260,
+  800 : #eccd56,
+  900 : #e8c443,
+  A100 : #ffffff,
+  A200 : #ffffff,
+  A400 : #fff5d4,
+  A700 : #ffefbb,
+  contrast: (50 : #000000,
+    100 : #000000,
+    200 : #000000,
+    300 : #000000,
+    400 : #000000,
+    500 : #000000,
+    600 : #000000,
+    700 : #000000,
+    800 : #000000,
+    900 : #000000,
+    A100 : #000000,
+    A200 : #000000,
+    A400 : #000000,
+    A700 : #000000,
+  )
+);
+
+$my-primary: mat.define-palette($custom-primary-color, 500);
+$my-accent: mat.define-palette($custom-secondary-color, 500);
+
+$my-theme: mat.define-light-theme((color: (primary: $my-primary,
+        accent: $my-accent,
+      ),
+      typography: mat.define-typography-config(),
+      density: 0,
+    ));
+
+@include mat.all-component-themes($my-theme);
+
+:root {
+  --pink-color: #fe3ea5;
+  --yellow-color: #eeff01;
+  --light-gold-color: #f0e1ba;
+  --white-color: #fcf7f4;
+  --blue-color: #1e90ff;
+}
+
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: 'PT Sans',sans-serif;
+}
+
+.material-icons, button {
+  cursor: pointer;
+}
+
+html {
+  --mat-toolbar-standard-height: 90px;
+  --mat-toolbar-title-text-size: 30px;
+}
+
+.button {
+  display: inline-block;
+  padding: 5px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: var(--blue-color);
+  background-color: #FFFECF;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #BCB047;
+  font-weight: 500;
+  font-family: 'PT Sans',sans-serif;
+}
+
+.button:hover {background-color: #FFFECF}
+
+.button:active {
+  background-color: #FFFECF;
+  box-shadow: 0 3px #666;
+  transform: translateY(4px);
+}
