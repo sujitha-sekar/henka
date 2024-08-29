@@ -75,3 +75,28 @@
     float: none;
   }
 }
+
+.menu-items {
+  background-color: var(--white-color);
+  width: 100%;
+  cursor: pointer;
+  border-bottom: 1px solid;
+}
+
+.menu-items:hover {
+  background-color: var(--yellow-color) !important;
+}
+
+.menu-img {
+  width: 30px;
+  height: 30px;
+}
+
+.menu-head {
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--dark-blue-color);
+  font-family: cursive;
+}
+
+

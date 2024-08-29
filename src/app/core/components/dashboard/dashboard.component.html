@@ -2,7 +2,57 @@
   <!-- <a href="#default" id="logo">CompanyLogo</a> -->
   <img src="../../../../assets/Henka.png" />
   <div id="navbar-right">
-    <button class="button">Menu  ☰</button>
+    <button class="button" [matMenuTriggerFor]="beforeMenu">Menu  ☰</button>
+    <mat-menu #beforeMenu="matMenu" xPosition="before" fxLayoutAlign="center center">
+      <div class="menu-items" mat-menu-item>
+        <div fxLayout="row" fxLayoutGap="4%" fxLayoutAlign="start center">
+          <img class="menu-img" src="../../../../assets/politics.png" />
+          <div fxLayout="column" fxLayout="start center" fxLayoutGap="2%">
+            <h5 class="menu-head">Politics</h5>
+          </div>
+        </div>
+      </div>
+      <div class="menu-items" mat-menu-item>
+        <div fxLayout="row" fxLayoutGap="4%" fxLayoutAlign="start center">
+          <img class="menu-img" src="../../../../assets/astronomy.png" />
+          <div fxLayout="column" fxLayout="start center" fxLayoutGap="2%">
+            <h5 class="menu-head">Astronomy</h5>
+          </div>
+        </div>
+      </div>
+      <div class="menu-items" mat-menu-item>
+        <div fxLayout="row" fxLayoutGap="4%" fxLayoutAlign="start center">
+          <img class="menu-img" src="../../../../assets/brain.jpg" />
+          <div fxLayout="column" fxLayout="start center" fxLayoutGap="2%">
+            <h5 class="menu-head">Brain</h5>
+          </div>
+        </div>
+      </div>
+      <div class="menu-items" mat-menu-item>
+        <div fxLayout="row" fxLayoutGap="4%" fxLayoutAlign="start center">
+          <img class="menu-img" src="../../../../assets/physics.jpg" />
+          <div fxLayout="column" fxLayout="start center" fxLayoutGap="2%">
+            <h5 class="menu-head">Physics</h5>
+          </div>
+        </div>
+      </div>
+      <div class="menu-items" mat-menu-item routerLink="/app/earth">
+        <div fxLayout="row" fxLayoutGap="4%" fxLayoutAlign="start center">
+          <img class="menu-img" src="../../../../assets/earth.png" />
+          <div fxLayout="column" fxLayout="start center" fxLayoutGap="2%">
+            <h5 class="menu-head">Earth</h5>
+          </div>
+        </div>
+      </div>
+      <div class="menu-items" mat-menu-item>
+        <div fxLayout="row" fxLayoutGap="4%" fxLayoutAlign="start center">
+          <img class="menu-img" src="../../../../assets/architecture.png" />
+          <div fxLayout="column" fxLayout="start center" fxLayoutGap="2%">
+            <h5 class="menu-head">Architecture</h5>
+          </div>
+        </div>
+      </div>
+    </mat-menu>
   </div>
 </div>
 
