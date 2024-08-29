@@ -46,8 +46,20 @@
 }
 
 .render {
-  padding: 20px;
-  margin-top: 99px;
+  margin-top: 80px;
+}
+
+.footer {
+  text-align: center;
+  bottom: 0;
+  background-color: var(--yellow-color);
+  padding: 10px;
+}
+
+.footer span {
+  font-size: 19px;
+  font-weight: 600;
+  color: var(--pink-color);
 }
 
 @media screen and (max-width: 580px) {

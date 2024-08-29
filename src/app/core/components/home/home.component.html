@@ -1,0 +1,107 @@
+<div class="contatiner outer" fxLayout="column" fxLayoutGap="3%">
+  <div fxLayout="row" fxLayout.lt-md="column" fxLayout.lt-sm="column" fxLayoutAlign="start center" fxLayoutGap="3%">
+    <div fxFlex="40%" fxFlex.lt-md="100%" fxFlex.lt-sm="100%" fxLayoutAlign="center center" fxLayout="column"
+      fxLayoutGap="2%">
+      <h1 class="head">Welcome to Henka! The information website form the Indian Gallery.</h1>
+      <img class="building" src="../../../../assets/building.png" />
+    </div>
+    <div fxFlex="50%" fxFlex.lt-md="100%" fxFlex.lt-sm="100%">
+      <div class="card">
+        <h1 class="head" style="color: var(--pink-color);">Know More Facts!</h1>
+        <div fxLayoutAlign="center center">
+          <img class="card-img" [src]="data[selectedIndex].imgUrl">
+          <div class="card-data">
+            <h1>{{data[selectedIndex].name}}</h1>
+            <h3>{{data[selectedIndex].description}}</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div fxLayout="row" fxLayout.lt-md="column" fxLayout.lt-sm="column" fxLayoutAlign="start center" fxLayoutGap="3%">
+    <div fxFlex="40%" fxFlex.lt-md="95%" fxLayout="column" fxLayoutGap="4%">
+      <div class="card" style="padding-bottom: 40px;" fxLayout="column" fxLayoutGap="3%">
+        <h2 class="head" style="color: var(--orange-color);">Follow us to explore more</h2>
+        <div fxLayout="row" fxLayoutGap="2%" fxLayoutGap.lt-sm="0" fxLayoutAlign="center center">
+          <div class="social-media">
+            <img src="../../../../assets/linkedin.jpg" />
+          </div>
+          <div class="social-media">
+            <img src="../../../../assets/twitter.jpg" />
+          </div>
+          <div class="social-media">
+            <img src="../../../../assets/youtube.jpg" />
+          </div>
+          <div class="social-media">
+            <img src="../../../../assets/whatsapp.jpg" />
+          </div>
+        </div>
+      </div>
+      <div class="daily-card" fxLayout="row" fxLayoutAlign="center center" fxLayoutGap="4%">
+        <img src="../../../../assets/bluewhale.png" />
+        <div class="stamp">
+          <span>Today's Fact</span>
+        </div>
+        <p>The heart of a blue whale is so large that a human could swim through its arteries.</p>
+      </div>
+    </div>
+    <div fxFlex="50%" fxFlex.lt-md="95%" class="card" fxLayout="column" fxLayoutGap="3%" fxLayoutAlign="center center">
+      <div fxLayout="row">
+        <h1 class="head" style="color: var(--pink-color);">HENKA <span
+            style="color: var(--orange-color); font-family: cursive;">&nbsp;means "change"</span></h1>
+        <div style="position: absolute;right: -10px;top: 0;background-color: antiquewhite;padding: 8px;
+            border-radius: 5px;rotate: 20deg;">
+          <h2 style="color: var(--lavender-color);margin: 0;">Choose yours</h2>
+        </div>
+      </div>
+      <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutGap="4%" fxLayoutAlign="center center">
+        <div fxFlex="45%" class="menu-items" fxLayout="row" fxLayoutGap="4%" fxLayoutAlign="start center">
+          <img class="menu-img" src="../../../../assets/politics.png" />
+          <div fxLayout="column" fxLayout="start center" fxLayoutGap="2%">
+            <h5 class="menu-head">Politics</h5>
+            <p class="menu-subhead">Politics is the art of compromise</p>
+          </div>
+        </div>
+        <div fxFlex="45%" class="menu-items" fxLayout="row" fxLayoutGap="4%" fxLayoutAlign="start center">
+          <img class="menu-img" src="../../../../assets/astronomy.png" />
+          <div fxLayout="column" fxLayout="start center" fxLayoutGap="2%">
+            <h5 class="menu-head">Astronomy</h5>
+            <p class="menu-subhead">The Universe under Big Bang</p>
+          </div>
+        </div>
+      </div>
+      <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutGap="4%" fxLayoutAlign="center center">
+        <div fxFlex="45%" class="menu-items" fxLayout="row" fxLayoutGap="4%" fxLayoutAlign="start center">
+          <img class="menu-img" src="../../../../assets/brain.jpg" />
+          <div fxLayout="column" fxLayout="start center" fxLayoutGap="2%">
+            <h5 class="menu-head">Brain</h5>
+            <p class="menu-subhead">The Most powerfull tool</p>
+          </div>
+        </div>
+        <div fxFlex="45%" class="menu-items" fxLayout="row" fxLayoutGap="4%" fxLayoutAlign="start center">
+          <img class="menu-img" src="../../../../assets/physics.jpg" />
+          <div fxLayout="column" fxLayout="start center" fxLayoutGap="2%">
+            <h5 class="menu-head">Physics</h5>
+            <p class="menu-subhead">Physics is the science of motion</p>
+          </div>
+        </div>
+      </div>
+      <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutGap="4%" fxLayoutAlign="center center">
+        <div fxFlex="45%" class="menu-items" fxLayout="row" fxLayoutGap="4%" fxLayoutAlign="start center">
+          <img class="menu-img" src="../../../../assets/earth.png" />
+          <div fxLayout="column" fxLayout="start center" fxLayoutGap="2%">
+            <h5 class="menu-head">Earth</h5>
+            <p class="menu-subhead">Our first home planet</p>
+          </div>
+        </div>
+        <div fxFlex="45%" class="menu-items" fxLayout="row" fxLayoutGap="4%" fxLayoutAlign="start center">
+          <img class="menu-img" src="../../../../assets/architecture.png" />
+          <div fxLayout="column" fxLayout="start center" fxLayoutGap="2%">
+            <h5 class="menu-head">Architecture</h5>
+            <p class="menu-subhead">We shape our buildings</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
