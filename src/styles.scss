@@ -88,6 +88,7 @@ $my-theme: mat.define-light-theme((color: (primary: $my-primary,
   --lavender-color: #d6a9e2;
   --orange-color: #ffa350;
   --green-color: #87ff50;
+  --dark-green-color: #329f01;
 }
 
 /* You can add global styles to this file, and also import other style files */
@@ -144,4 +145,24 @@ html {
 .mat-mdc-menu-panel {
   background-color: var(--lavender-color) !important;
   padding: 10px !important;
+}
+
+.header {
+  padding: 30px;
+  width: 70%;
+}
+
+.header-image {
+  width: 230px;
+  height: 230px;
+}
+
+.image-title {
+  width: 230px;
+  height: 100px;
+}
+
+.header-card {
+  border-radius: 5px;
+  padding: 15px 20px;
 }

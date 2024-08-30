@@ -1,0 +1,44 @@
+.winds-outer {
+  background-color: var(--blue-color);
+  padding-bottom: 20px;
+}
+
+.container {
+  width: 90%;
+  padding: 30px;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--pink-color);
+  font-family: cursive;
+  margin-bottom: 40px;
+}
+
+.equator {
+  width: 475px;
+  height: auto;
+}
+
+.content1 {
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: 600;
+  color: var(--dark-blue-color);
+}
+
+.content2 {
+  font-size: 25px;
+  letter-spacing: 2.5px;
+  line-height: 27px;
+  color: var(--light-gold-color);
+  margin: 45px 20px 30px 20px;
+}
+
+@media screen and (max-width:966px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+}

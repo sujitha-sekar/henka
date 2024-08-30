@@ -1,1 +1,27 @@
-<p>earth-list works!</p>
+<div class="earthlist" fxLayoutAlign="center start">
+<div fxLayout="column" fxLayoutGap="2%" fxLayoutAlign="center center">
+  <div class="header" fxLayout="row" fxLayoutGap="5%" fxLayoutAlign="center center">
+    <div>
+      <img class="image-title" src="../../../../assets/earth-text.png" />
+      <img class="header-image" src="../../../../assets/earthlist.png" />
+    </div>
+    <div class="header-card" style="background-color: var(--lavender-color);">
+      <h1 class="quest" style="color: var(--blue-color);">What is Earth?</h1>
+      <h3 class="ans" style="color: var(--dark-blue-color);">Earth is the third planet from the Sun in our solar system
+        and the only known planet to support life. Earth has a unique balance of temperature, water, and an atmosphere
+        that allows for a wide variety of ecosystems and life forms. It is often referred to as the "Blue Planet".</h3>
+    </div>
+  </div>
+  <div class="card">
+    <h3 class="card-title">KNOW ABOUT EARTH!</h3>
+    <div class="array-card" fxLayout="row wrap" fxLayoutAlign="center center">
+      <div *ngFor="let item of earthlist;let i index">
+        <div class="inner-card" (click)="navigate(i)" fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="2%">
+          <img class="list-image" [src]="item?.image" />
+          <h2 class="list-title">{{item?.title}}</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
