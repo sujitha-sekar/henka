@@ -1,4 +1,7 @@
-<div class="winds-outer" fxLayoutAlign="center center">
+<div class="winds-outer" fxLayoutAlign="center center" fxLayout="column">
+  <div class="back-button" fxLayoutAlign="start start">
+    <button class="button" style="color: var(--orange-color);" (click)="previousPage()">Back</button>
+  </div>
   <div fxLayout="column" fxLayoutAlign="center center" class="container">
     <h1 class="heading">What makes the wind blow?</h1>
     <div fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="2%" fxLayoutAlign="center center">
@@ -19,6 +22,9 @@
       the surrounding area is sucked into the space left by the rising air. Air flows horizontally at the top of the
       troposphere. The air cools until it descends. When the air reaches the ground, it creates a high pressure zone.
       Air flowing from areas of high pressure to low pressure creates winds. The greater the pressure difference between
-      the pressure zones, the faster the wind blows.</h4>
+      the pressure zones, the faster the <span style="color: var(--yellow-color);">wind blows.</span></h4>
+      <div>
+        <img class="troposhpere" src="../../../../assets/troposhpere.png" />
+      </div>
   </div>
 </div>
