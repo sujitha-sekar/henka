@@ -1,1 +1,53 @@
-<p>green-house-gas works!</p>
+<div class="green-house-gas">
+  <div class="back-button" fxLayoutAlign="start start">
+    <button class="button" style="color: var(--orange-color);" (click)="previousPage()">Back</button>
+  </div>
+  <div fxLayout="column" fxLayoutAlign="center center" class="container">
+    <h1 class="heading">The Earth's Atmosphere</h1>
+    <div fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="2%" fxLayoutAlign="center center">
+      <img class="equator" src="../../../../assets/greenhouse-effect-diagram.jpg" />
+      <div>
+        <span class="content1">The atmosphere is a mixture of gases that surrounds the planet. We also call it air. The
+          gases in the air include nitrogen, oxygen, and carbon dioxide. Along with water vapor, air allows life to
+          survive. The atmosphere protects living things from the ☀️sun’s most harmful rays. Gases reflect or absorb the
+          strongest rays of sunlight.</span>
+      </div>
+    </div>
+    <h2 class="sub-head1">Green House Gases</h2>
+    <h4 class="content2">💠Greenhouse gases include carbon dioxide (CO2), water vapor (H2O), methane (CH4), ozone (O3),
+      nitrous oxides (NO and NO2), and chlorofluorocarbons (CFCs). All are a normal part of the atmosphere except CFCs.
+    </h4>
+    <h4 class="content2">💠Different greenhouse gases have different abilities to trap heat. For example, one methane
+      molecule traps 23 times as much heat as one CO2 molecule. One CFC-12 molecule (a type of CFC) traps 10,600 times
+      as much heat as one CO2. Still, CO2 is a very important
+      greenhouse gas because it is much more abundant in the atmosphere and has increased by over 40% since the
+      industrial revolution.
+    </h4>
+    <h2 class="sub-head1" style="margin: 60px 0px 40px;">Where does the Green House Gases come from?🤔</h2>
+
+    <div fxLayout="column" fxLayoutGap="3%" fxLayoutAlign="start start">
+      <div fxLayout="row" fxLayout.lt-sm="column" class="table">
+        <h4 class="left" fxFlex="29%">Carbon dioxide</h4>
+        <p class="right" fxFlex>Respiration, volcanic eruptions, decomposition of plant material; burning of fossil
+          fuels</p>
+      </div>
+      <div fxLayout="row" fxLayout.lt-sm="column" class="table">
+        <h4 class="left" fxFlex="29%">Methane</h4>
+        <p class="right" fxFlex>Decomposition of plant material under some conditions, biochemical reactions in stomachs
+        </p>
+      </div>
+      <div fxLayout="row" fxLayout.lt-sm="column" class="table">
+        <h4 class="left" fxFlex="29%">Nitrous oxide</h4>
+        <p class="right" fxFlex>Produced by bacteria</p>
+      </div>
+      <div fxLayout="row" fxLayout.lt-sm="column" class="table">
+        <h4 class="left" fxFlex="29%">Ozone</h4>
+        <p class="right" fxFlex>Atmospheric process</p>
+      </div>
+      <div fxLayout="row" fxLayout.lt-sm="column" class="table">
+        <h4 class="left" fxFlex="29%">Chlorofluorocarbons</h4>
+        <p class="right" fxFlex>Not occuring natural; made by humans</p>
+      </div>
+    </div>
+  </div>
+</div>

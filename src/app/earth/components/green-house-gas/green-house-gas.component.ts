@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavigationService } from 'src/app/core/services/navigation.service';
 
 @Component({
   selector: 'app-green-house-gas',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./green-house-gas.component.scss']
 })
 export class GreenHouseGasComponent {
+
+  constructor(private locationService: NavigationService) {}
+
+  previousPage() {
+    this.locationService.goBack();
+  }
 
 }

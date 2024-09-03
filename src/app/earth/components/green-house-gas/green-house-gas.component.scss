@@ -1,0 +1,74 @@
+.green-house-gas {
+  background-image: url('../../../../assets/background2.jpg');
+}
+
+.container {
+  width: 90%;
+  padding: 30px;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--dark-green-color);
+  font-family: cursive;
+  margin-bottom: 40px;
+}
+
+.equator {
+  width: 330px;
+  height: auto;
+}
+
+.content1 {
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: 600;
+  line-height: 28px;
+  color: var(--pink-color);
+}
+
+.content2 {
+  font-size: 25px;
+  letter-spacing: 2.5px;
+  line-height: 27px;
+  color: var(--dark-orange-color);
+  margin: 45px 20px 0px;
+  font-family: cursive;
+}
+
+
+.sub-head1 {
+  font-size: 35px;
+  font-family: cursive;
+  font-weight: 600;
+  color: var(--dark-blue-color);
+  margin: 40px 0px 0px 30px;
+  width: 100%;
+}
+
+.table {
+  width: 100%;
+}
+
+.left {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--blue-color);
+  word-break: break-word;
+}
+
+.right {
+  font-size: 23px;
+  color: var(--dark-green-color);
+  font-family: cursive;
+  line-height: 25px;
+  word-break: break-word;
+}
+
+@media screen and (max-width:966px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+}
