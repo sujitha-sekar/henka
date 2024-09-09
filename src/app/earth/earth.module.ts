@@ -4,6 +4,7 @@ import { MaterialModule } from '../material/material.module';
 import { EarthListComponent } from './components/earth-list/earth-list.component';
 import { WindsComponent } from './components/winds/winds.component';
 import { GreenHouseGasComponent } from './components/green-house-gas/green-house-gas.component';
+import { MethaneComponent } from './components/methane/methane.component';
 
 
 
@@ -11,7 +12,8 @@ import { GreenHouseGasComponent } from './components/green-house-gas/green-house
   declarations: [
     EarthListComponent,
     WindsComponent,
-    GreenHouseGasComponent
+    GreenHouseGasComponent,
+    MethaneComponent
   ],
   imports: [
     CommonModule,

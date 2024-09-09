@@ -1,0 +1,95 @@
+.winds-outer {
+  background-color: var(--lavender-color);
+  padding-bottom: 20px;
+}
+
+.container {
+  width: 90%;
+  padding: 30px;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--pink-color);
+  font-family: cursive;
+  margin-bottom: 40px;
+}
+
+.equator {
+  width: 475px;
+  height: auto;
+}
+
+.content1 {
+  font-size: 25px;
+  font-family: cursive;
+  font-weight: 600;
+  color: var(--dark-blue-color);
+}
+
+.content2 {
+  font-size: 25px;
+  letter-spacing: 2.5px;
+  line-height: 27px;
+  color: var(--dark-green-color);
+  margin: 45px 20px 30px 20px;
+  font-family: cursive;
+  margin-bottom: 45px;
+  font-weight: 600;
+}
+
+.content-head {
+  font-size: 28px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  line-height: 27px;
+  color: var(--blue-color);
+  margin: 45px 20px 30px 20px;
+  // font-family: cursive;
+  margin-bottom: 45px;
+  padding: 8px 20px;
+  background-color: var(--green-color);
+  border-radius: 5px;
+}
+
+.content3 {
+  font-size: 25px;
+  letter-spacing: 2.5px;
+  line-height: 27px;
+  color: var(--dark-orange-color);
+  margin: 45px 20px 30px 20px;
+  font-family: cursive;
+  margin-bottom: 55px;
+}
+
+.train {
+  width: 270px;
+  height: auto;
+}
+
+.content2 span:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.explain {
+  color: var(--blue-color);
+  font-size: 22px;
+  font-family: cursive;
+  width: 75%;
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+@media screen and (max-width:966px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+
+  .explain {
+    width: 90%;
+  }
+}

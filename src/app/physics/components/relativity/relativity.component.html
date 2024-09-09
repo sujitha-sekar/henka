@@ -1,0 +1,39 @@
+<div class="winds-outer" fxLayoutAlign="center center" fxLayout="column">
+  <div class="back-button" fxLayoutAlign="start start">
+    <button class="button" style="color: var(--orange-color);" (click)="previousPage()">Back</button>
+  </div>
+  <div fxLayout="column" fxLayoutAlign="center center" class="container">
+    <h1 class="heading">What is principle of Relativity?</h1>
+    <div fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="2%" fxLayoutAlign="center center">
+      <img class="equator" src="../../../../assets/relativity.png" />
+      <div>
+        <span class="content1">The principle of relativity states that there is no physical way to differentiate between
+          a body moving at a constant speed and an immobile body. It is of course possible to determine that one body is
+          moving relative to the other, but it is impossible to determine which of them is moving and which is
+          immobile.</span>
+      </div>
+    </div>
+
+    <h3 class="content-head" style="margin-bottom: 10px;">The Collision</h3>
+    <h4 class="content3">Rule☝️: When a bouncy ball collides with a wall or a much heavier object that's not moving, it
+      bounces off at the same speed in the opposite direction.</h4>
+    <h4 class="content1">A bouncy ball hits a wall with a speed of 2m/s.</h4>
+    <h4 class="content1">What is the ball's speed immediately after it bounces?🤔</h4>
+    <h3 class="content2">ANSWER: 2m/s</h3>
+    <mat-divider style="border: 1.5px solid var(--blue-color);width: 90%;border-radius: 5px;"></mat-divider>
+    <h3 class="content-head" style="margin-bottom: 10px;">The Relativity</h3>
+    <h4 class="content3">Rule☝️: The rules of nature do not depend on how we look at it. A physical process is the same
+      no matter what perspective is used.</h4>
+    <div>
+      <img class="train" src="../../../../assets/train.png" />
+    </div>
+    <h4 class="content1">From the perspective of a bystander sitting near the train track, the train is moving at a
+      speed of 200 km/h toward the bouncy ball.</h4>
+    <h4 class="content1">What is the speed of the ball after the train collides with it?🤔</h4>
+    <h3 class="content2">ANSWER: 200Km/h <span
+        style="font-family: Helvetica, sans-serif;font-weight: 100;color: var(--orange-color);letter-spacing: normal;" (click)="isShow = !isShow">Show
+        Explaination</span></h3>
+    <h5 class="explain" *ngIf="isShow">According to a train passenger, the ball approaches the train at a speed of 200 km/h. The train and ball
+      approach each other at the same speed no matter what perspective is taken.</h5>
+  </div>
+</div>
