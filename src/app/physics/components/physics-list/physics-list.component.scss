@@ -1,5 +1,5 @@
 .earthlist {
-  background-image: url('../../../../assets/green1.jpg');
+  background-image: url('../../../../assets/background4.jpg');
   padding-bottom: 20px;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .card {
-  background-color: hsl(101deg 81.58% 62.32% / 33%);
+  background-color: hsl(204.92deg 81.58% 62.32% / 33%);
   border-radius: 5px;
   padding: 20px;
   width: 75%;
@@ -29,12 +29,12 @@
 }
 
 .inner-card {
-  background-color: var(--green-color);
+  background-color: var(--blue-color);
   margin: 10px;
   border-radius: 5px;
   padding: 20px;
   cursor: pointer;
-  box-shadow: 0px 5px rgb(3, 99, 3);
+  box-shadow: 0px 5px rgb(6 67 119);
   width: 290px;
 }
 
@@ -44,7 +44,7 @@
 }
 
 .array-card {
-  background-color: var(--dark-green-color);
+  background-color: var(--dark-blue-color);
   padding: 15px;
 }
 

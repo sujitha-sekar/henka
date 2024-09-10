@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { NavigationService } from 'src/app/core/services/navigation.service';
 
 @Component({
   selector: 'app-methane',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class MethaneComponent {
 
+  constructor(private locationService: NavigationService) {}
+
+  previousPage() {
+    this.locationService.goBack();
+  }
+  
 }

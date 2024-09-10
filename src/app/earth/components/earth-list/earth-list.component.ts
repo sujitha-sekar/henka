@@ -12,7 +12,7 @@ export class EarthListComponent {
   earthlist = [
     { image: '../../../../assets/winds.jpg', title: 'What Makes the Wind Blow?', urlLink: 'winds'},
     { image: '../../../../assets/greenhouse_gas.png', title: 'Is Green house effect is good thing?', urlLink: 'green-house-gas'},
-    { image: '../../../../assets/winds.jpg', title: 'Methane & Information about it', urlLink: 'methane'},
+    { image: '../../../../assets/methane-title.jpg', title: 'Methane & Information about it', urlLink: 'methane'},
     { image: '../../../../assets/winds.jpg', title: 'What Makes the Wind Blow?', urlLink: ''},
     { image: '../../../../assets/winds.jpg', title: 'What Makes the Wind Blow?', urlLink: ''},
     { image: '../../../../assets/winds.jpg', title: 'What Makes the Wind Blow?', urlLink: ''},
