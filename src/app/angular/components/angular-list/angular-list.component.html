@@ -1,0 +1,28 @@
+<div class="tech-list">
+  <div fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="2%">
+    <div class="header" fxLayout="row" fxLayoutGap="5%" fxLayoutAlign="center center">
+      <div>
+        <img class="image-title" src="../../../../assets/angular-text.png" />
+        <img class="header-image" src="../../../../assets/angular.png" />
+      </div>
+      <div class="header-card" style="background-color: var(--lavender-color);">
+        <h1 class="quest" style="color: var(--blue-color);">What is Angular?</h1>
+        <h3 class="ans" style="color: var(--dark-blue-color);">Angular is an open-source web application framework
+          maintained by Google and a community of developers. It is designed to build dynamic and interactive
+          single-page applications (SPAs) efficiently. With Angular, developers can create robust, scalable, and
+          maintainable web applications.</h3>
+      </div>
+    </div>
+    <div class="card">
+      <h3 class="card-title">KNOW ABOUT ANGULAR!</h3>
+      <div class="array-card" fxLayout="row wrap" fxLayoutAlign="center center">
+        <div *ngFor="let item of earthlist;let i = index; let j index">
+          <div class="inner-card" (click)="navigate(j)" fxLayout="column" fxLayoutAlign="center center" fxLayoutGap="2%">
+            <img class="list-image" [ngStyle]="{'border-radius': i==2 ? '28px' : '0px'}" [src]="item?.image" />
+            <h2 class="list-title">{{item?.title}}</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

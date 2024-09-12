@@ -9,6 +9,8 @@ import { MethaneComponent } from './earth/components/methane/methane.component';
 import { PhysicsListComponent } from './physics/components/physics-list/physics-list.component';
 import { RelativityComponent } from './physics/components/relativity/relativity.component';
 import { TechListComponent } from './technology/components/tech-list/tech-list.component';
+import { AngularListComponent } from './angular/components/angular-list/angular-list.component';
+import { AngularHistoryComponent } from './angular/components/angular-history/angular-history.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'app/home', pathMatch: 'full'}, 
@@ -20,7 +22,9 @@ const routes: Routes = [
     { path : 'methane', component: MethaneComponent },
     { path : 'physics', component: PhysicsListComponent },
     { path : 'relativity', component: RelativityComponent },
-    { path : 'technology', component: TechListComponent }
+    { path : 'technology', component: TechListComponent },
+    { path : 'angular-history', component: AngularHistoryComponent },
+    { path : 'angular', component: AngularListComponent }
   ]}
 ];
 
