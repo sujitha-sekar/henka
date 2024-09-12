@@ -10,7 +10,7 @@ import { PhysicsListComponent } from './physics/components/physics-list/physics-
 import { RelativityComponent } from './physics/components/relativity/relativity.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'app', pathMatch: 'full'}, 
+  { path: '', redirectTo: 'app/home', pathMatch: 'full'}, 
   { path: 'app', component: DashboardComponent, children: [
     { path: 'home', component: HomeComponent },
     { path : 'earth', component: EarthListComponent },

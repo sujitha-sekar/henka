@@ -12,7 +12,7 @@ export class PhysicsListComponent {
   earthlist = [
     { image: '../../../../assets/relativity-title.webp', title: 'Work of Realativity', urlLink: 'relativity'},
     { image: '../../../../assets/greenhouse_gas.png', title: 'Is Green house effect is good thing?', urlLink: 'green-house-gas'},
-    { image: '../../../../assets/winds.jpg', title: 'Methane & Information about it', urlLink: 'methane'}
+    { image: '../../../../assets/winds.jpg', title: 'Methane & Information about it', urlLink: ''}
   ]
 
   navigate(index: any) {
