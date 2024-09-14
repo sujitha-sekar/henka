@@ -78,6 +78,15 @@ $my-theme: mat.define-light-theme((color: (primary: $my-primary,
 
 @include mat.all-component-themes($my-theme);
 
+$dark-gray: #656565;
+$gray: #f1efef;
+$green: #aec785;
+$light-green: #8ed6d6;
+$purple: #bea4ec;
+$teal: #61d4d7;
+$white: #ffffff;
+$pink: #d775b4;
+
 :root {
   --pink-color: #fe3ea5;
   --yellow-color: #eeff01;

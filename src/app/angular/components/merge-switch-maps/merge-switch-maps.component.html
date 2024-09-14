@@ -1,0 +1,26 @@
+<div class="angular-msm">
+  <div class="back-button" fxLayoutAlign="start start">
+    <button class="button" style="color: var(--orange-color);" (click)="previousPage()">Back</button>
+  </div>
+  <div fxLayout="column" fxLayoutAlign="center center" class="container">
+    <img class="map-head" src="../../../../assets/map-text.png" />
+    <div fxFlex="80%" fxLayout="column" fxLayoutAlign="center center">
+      <h3 class="conatiner1">MergeMap and SwitchMap are both RxJS operators used for transforming and flattening
+        observables, but they behave differently in how they handle multiple subscriptions</h3>
+        <div fxLayout="row" fxLayoutGap="3%">
+          <div class="box1">
+            <p>Behavior: Subscribes to each inner observable without canceling the previous one, allowing all emitted
+              observables to run concurrently.</p>
+            <p>Use Case: Perfect for handling multiple API calls where each request depends on the result of a previous one,
+              allowing you to process all emissions concurrently.</p>
+          </div>
+          <div class="box1">
+            <p>Behavior: Subscribes to each inner observable without canceling the previous one, allowing all emitted
+              observables to run concurrently.</p>
+            <p>Use Case: Perfect for handling multiple API calls where each request depends on the result of a previous one,
+              allowing you to process all emissions concurrently.</p>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>

@@ -11,7 +11,7 @@ export class AngularListComponent {
   earthlist = [
     { image: '../../../../assets/angular-history.png', title: 'The History of Angular', urlLink: 'angular-history'},
     { image: '../../../../assets/viewencapulation-text.png', title: 'Style Scoping in Angular', urlLink: 'view-encapsulation'},
-    { image: '../../../../assets/winds.jpg', title: 'What Makes the Wind Blow?', urlLink: ''},
+    { image: '../../../../assets/map-text.png', title: 'MergeMap Vs SwitchMap', urlLink: 'merge-vs-switch'},
   ]
 
   navigate(index: any) {

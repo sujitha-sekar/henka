@@ -1,0 +1,40 @@
+.angular-msm {
+  background-image: url('../../../../assets/msm.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.container {
+  // width: 90%;
+  padding: 30px;
+}
+
+@media screen and (max-width:966px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+.map-head {
+  width: 350px;
+  height: auto;
+}
+
+.conatiner1 {
+  font-size: 22px;
+  background-color: var(--dark-blue-color);
+  padding: 20px;
+  border-radius: 5px;
+  color: var(--lavender-color);
+  font-family: 'Source Sans Pro', sans-serif;
+  width: 65%;
+  text-align: center;
+}
+
+.box1 {
+  background-color: var(--green-color);
+  border-radius: 5px;
+  padding: 20px;
+}
