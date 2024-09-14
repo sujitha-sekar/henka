@@ -9,8 +9,8 @@ import { Router } from '@angular/router';
 export class AngularListComponent {
   constructor(private router: Router) {}
   earthlist = [
-    { image: '../../../../assets/history.png', title: 'The History of Angular', urlLink: 'angular-history'},
-    { image: '../../../../assets/winds.jpg', title: 'What Makes the Wind Blow?', urlLink: ''},
+    { image: '../../../../assets/angular-history.png', title: 'The History of Angular', urlLink: 'angular-history'},
+    { image: '../../../../assets/viewencapulation-text.png', title: 'Style Scoping in Angular', urlLink: 'view-encapsulation'},
     { image: '../../../../assets/winds.jpg', title: 'What Makes the Wind Blow?', urlLink: ''},
   ]
 

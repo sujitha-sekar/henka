@@ -1,0 +1,68 @@
+.angular-history {
+  background-image: url('../../../../assets/bg2.webp');
+}
+
+.container {
+  width: 90%;
+  padding: 30px;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--dark-green-color);
+  font-family: cursive;
+  margin-bottom: 40px;
+}
+
+.history-head {
+  width: 750px;
+  height: auto;
+}
+
+.head-para {
+  width: 70%;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: var(--lavender-color);
+  color: var(--violet-color);
+  font-size: 22px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.code {
+  width: 500px;
+  height: auto;
+}
+
+.content1 {
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--lavender-color);
+  background-color: #0f0f0f;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.main-head {
+  font-size: 32px;
+  font-weight: 600;
+  color: var(--blue-color);
+  margin: 45px 20px 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.para {
+  font-size: 19px;
+  line-height: 27px;
+  color: var(--violet-color);
+  margin: 5px 20px 0px;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+@media screen and (max-width:966px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+}

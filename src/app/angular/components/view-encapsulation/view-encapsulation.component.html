@@ -1,0 +1,40 @@
+<div class="angular-history">
+  <div class="back-button" fxLayoutAlign="start start">
+    <button class="button" style="color: var(--orange-color);" (click)="previousPage()">Back</button>
+  </div>
+  <div fxLayout="column" fxLayoutAlign="center center" class="container">
+    <img class="history-head" src="../../../../assets/viewencapulation-text.png" />
+    <h3 class="head-para">In Angular, the encapsulation property within the <span class="highlight">@Component</span> decorator controls how styles are
+      applied to the component's template. By default, Angular uses View Encapsulation to ensure that styles defined in
+      a component only apply to that component's view and not to other components.</h3>
+    <div fxLayoutAlign="center center">
+      <div fxFlex="80%" fxLayout="column" fxLayoutGap="3%" fxLayoutAlign="center center">
+        <!-- part1 -->
+        <h1 class="main-head">ViewEncapsulation.None</h1>
+        <img class="code" src="../../../../assets/view-enc1.png" />
+        <h5 class="para">When you set encapsulation: ViewEncapsulation.None, Angular does not encapsulate the styles in
+          the component. The styles defined in this component’s CSS will apply globally to the entire application, not
+          just to the component’s view. You might use this in scenarios like: <span
+            style="font-weight: bolder;font-family: Arial, Helvetica, sans-serif;font-size: 20px;">Global Styles,
+            Third-Party Libraries, Custom Styling</span></h5>
+        <!-- part2 -->
+        <h1 class="main-head">ViewEncapsulation.Emulated</h1>
+        <img class="code" src="../../../../assets/view-enc2.png" />
+        <h5 class="para">ViewEncapsulation.Emulated is the default mode of view encapsulation in Angular. Angular adds
+          unique attributes to elements, ensuring
+          styles are scoped to the component.</h5>
+        <img class="code" src="../../../../assets/view-enc4.png" />
+        <h5 class="para">In this case, Angular adds the <span class="highlight">_ngcontent-c0</span> attribute to the <span class="highlight">h1</span> element, and applies the
+          corresponding CSS to only the h1 within this component.</h5>
+        <!-- part1 -->
+        <h1 class="main-head">ViewEncapsulation.ShadowDom</h1>
+        <img class="code" src="../../../../assets/view-enc3.png" />
+        <h5 class="para">ViewEncapsulation.ShadowDom: Uses the native Shadow DOM feature to scope styles, providing more
+          encapsulation at the browser level.</h5>
+        <img class="code" src="../../../../assets/view-enc5.png" />
+        <h5 class="para">In this case, the <span class="highlight">h1</span> styles only affect the elements within the Shadow DOM, and nothing outside
+          of the Shadow DOM is influenced by these styles.</h5>
+      </div>
+    </div>
+  </div>
+</div>
