@@ -13,6 +13,7 @@ import { AngularListComponent } from './angular/components/angular-list/angular-
 import { AngularHistoryComponent } from './angular/components/angular-history/angular-history.component';
 import { ViewEncapsulationComponent } from './angular/components/view-encapsulation/view-encapsulation.component';
 import { MergeSwitchMapsComponent } from './angular/components/merge-switch-maps/merge-switch-maps.component';
+import { AsyncPipeComponent } from './angular/components/async-pipe/async-pipe.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'app/home', pathMatch: 'full'}, 
@@ -28,7 +29,8 @@ const routes: Routes = [
     { path : 'angular-history', component: AngularHistoryComponent },
     { path : 'angular', component: AngularListComponent },
     { path : 'view-encapsulation', component: ViewEncapsulationComponent },
-    { path : 'merge-vs-switch', component: MergeSwitchMapsComponent }
+    { path : 'merge-vs-switch', component: MergeSwitchMapsComponent },
+    { path : 'async-pipe', component: AsyncPipeComponent }
   ]}
 ];
 

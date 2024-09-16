@@ -1,0 +1,18 @@
+<div class="asyncpipe">
+  <div class="back-button" fxLayoutAlign="start start">
+    <button class="button" style="color: var(--orange-color);" (click)="previousPage()">Back</button>
+  </div>
+  <div fxLayout="column" fxLayoutAlign="center center" class="container">
+    <img class="async-head" src="../../../../assets/async-pipe-text.png" />
+    <div fxFlex="80%" style="width: 100%;" fxLayout="column" fxLayoutAlign="center center">
+      <div fxLayoutAlign="start start" fxLayout="column" style="width: 100%;">
+        <h1 class="heading">The Purpose of Async Pipe:</h1>
+        <div fxLayout="column">
+          <div *ngFor="let item of asyncpipe">
+            <p class="content2">✴️ {{item?.content}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

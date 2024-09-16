@@ -12,6 +12,7 @@ export class AngularListComponent {
     { image: '../../../../assets/angular-history.png', title: 'The History of Angular', urlLink: 'angular-history'},
     { image: '../../../../assets/viewencapulation-text.png', title: 'Style Scoping in Angular', urlLink: 'view-encapsulation'},
     { image: '../../../../assets/map-text.png', title: 'MergeMap Vs SwitchMap', urlLink: 'merge-vs-switch'},
+    { image: '../../../../assets/async-pipe-text.png', title: 'The Purpose of Async Pipe', urlLink: 'async-pipe'},
   ]
 
   navigate(index: any) {

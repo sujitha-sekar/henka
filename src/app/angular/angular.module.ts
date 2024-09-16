@@ -5,6 +5,7 @@ import { AngularListComponent } from './components/angular-list/angular-list.com
 import { AngularHistoryComponent } from './components/angular-history/angular-history.component';
 import { ViewEncapsulationComponent } from './components/view-encapsulation/view-encapsulation.component';
 import { MergeSwitchMapsComponent } from './components/merge-switch-maps/merge-switch-maps.component';
+import { AsyncPipeComponent } from './components/async-pipe/async-pipe.component';
 
 
 
@@ -13,7 +14,8 @@ import { MergeSwitchMapsComponent } from './components/merge-switch-maps/merge-s
     AngularListComponent,
     AngularHistoryComponent,
     ViewEncapsulationComponent,
-    MergeSwitchMapsComponent
+    MergeSwitchMapsComponent,
+    AsyncPipeComponent
   ],
   imports: [
     CommonModule,
