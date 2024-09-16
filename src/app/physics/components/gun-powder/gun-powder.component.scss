@@ -1,0 +1,56 @@
+.asyncpipe {
+  background-color: #000a00;
+}
+
+.container {
+  width: 90%;
+  padding: 30px;
+}
+
+.heading {
+  font-size: 30px;
+  font-weight: 600;
+  color: var(--dark-green-color);
+  font-family: cursive;
+  margin-bottom: 40px;
+}
+
+.async-head {
+  width: 350px;
+  height: auto;
+}
+
+@media screen and (max-width:966px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+}
+
+.content {
+  margin-left: 75px;
+  color: var(--green-color);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-bottom: 60px;
+}
+
+.sub-head {
+  margin-left: 75px;
+  color: var(--dark-green-color);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+.sub-content {
+  margin-left: 75px;
+  color: var(--green-color);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
