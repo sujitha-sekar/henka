@@ -7,20 +7,24 @@
     <div fxFlex="80%" fxLayout="column" fxLayoutAlign="center center">
       <h3 class="conatiner1">MergeMap and SwitchMap are both RxJS operators used for transforming and flattening
         observables, but they behave differently in how they handle multiple subscriptions</h3>
-        <div fxLayout="row" fxLayoutGap="3%">
-          <div class="box1">
-            <p>Behavior: Subscribes to each inner observable without canceling the previous one, allowing all emitted
-              observables to run concurrently.</p>
-            <p>Use Case: Perfect for handling multiple API calls where each request depends on the result of a previous one,
-              allowing you to process all emissions concurrently.</p>
-          </div>
-          <div class="box1">
-            <p>Behavior: Subscribes to each inner observable without canceling the previous one, allowing all emitted
-              observables to run concurrently.</p>
-            <p>Use Case: Perfect for handling multiple API calls where each request depends on the result of a previous one,
-              allowing you to process all emissions concurrently.</p>
-          </div>
+      <div fxLayout="row" fxLayout.lt-sm="column" fxLayoutGap="3%">
+        <div class="box1">
+          <h3 class="box-head">MergeMap</h3>
+          <p class="box-content"><span style="font-weight: 600;">Behavior: </span> Subscribes to each inner observable without canceling the previous one,
+            allowing all emitted
+            observables to run concurrently.</p>
+          <p class="box-content"><span style="font-weight: 600;">Use Case: </span> Perfect for handling multiple API calls where each request depends on the
+            result of a previous one,
+            allowing you to process all emissions concurrently.</p>
         </div>
+        <div class="box1">
+          <h3 class="box-head">SwitchMap</h3>
+          <p class="box-content"><span style="font-weight: 600;">Behavior: </span> Cancels the previous inner observable when a new value is emitted from the
+            source observable, ensuring that only the latest observable is active.</p>
+          <p class="box-content"><span style="font-weight: 600;">Use Case: </span> Ideal for scenarios where you want to cancel ongoing operations, like
+            fetching data based on user input or route changes.</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>
