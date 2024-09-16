@@ -12,6 +12,21 @@
             <p class="content2">✴️ {{item?.content}}</p>
           </div>
         </div>
+
+        <h1 class="heading">Promise:</h1>
+        <div fxLayout="column">
+          <div *ngFor="let item of promise">
+            <p class="content2">✴️ {{item?.content}}</p>
+          </div>
+        </div>
+
+        <h1 class="heading">Observables:</h1>
+        <div fxLayout="column">
+          <div *ngFor="let item of observable">
+            <p class="content2">✴️ {{item?.content}}</p>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
