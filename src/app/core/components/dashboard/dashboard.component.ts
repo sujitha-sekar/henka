@@ -1,4 +1,5 @@
 import { Component, HostListener } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-dashboard',
@@ -7,4 +8,9 @@ import { Component, HostListener } from '@angular/core';
 })
 export class DashboardComponent {
   
+  constructor(private router: Router) {}
+  
+  navigateDashboard() {
+    this.router.navigate(['app/home'])
+  }
 }

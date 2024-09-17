@@ -1,6 +1,6 @@
 <div id="navbar" fxLayoutAlign="space-between">
   <!-- <a href="#default" id="logo">CompanyLogo</a> -->
-  <img src="../../../../assets/Henka.png" />
+  <img src="../../../../assets/Henka.png" (click)="navigateDashboard()" />
   <div id="navbar-right">
     <button class="button" [matMenuTriggerFor]="beforeMenu">Menu  ☰</button>
     <mat-menu #beforeMenu="matMenu" xPosition="before" fxLayoutAlign="center center">
@@ -46,7 +46,7 @@
       </div>
       <div class="menu-items" mat-menu-item routerLink="/app/chemistry">
         <div fxLayout="row" fxLayoutGap="4%" fxLayoutAlign="start center">
-          <img class="menu-img" src="../../../../assets/chemistry.png" />
+          <img class="menu-img" src="../../../../assets/chemistry-lab.png" />
           <div fxLayout="column" fxLayout="start center" fxLayoutGap="2%">
             <h5 class="menu-head">Chemistry</h5>
           </div>

@@ -19,7 +19,7 @@
         <div *ngFor="let item of earthlist;let i = index; let j index">
           <div class="inner-card" (click)="navigate(j)" fxLayout="column" fxLayoutAlign="center center"
             fxLayoutGap="2%">
-            <img class="list-image" [ngStyle]="{'border-radius': i==2 ? '28px' : '0px'}" [src]="item?.image" />
+            <img class="list-image" [src]="item?.image" />
             <h2 class="list-title">{{item?.title}}</h2>
           </div>
         </div>
