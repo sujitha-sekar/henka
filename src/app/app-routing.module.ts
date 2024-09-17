@@ -15,6 +15,7 @@ import { ViewEncapsulationComponent } from './angular/components/view-encapsulat
 import { MergeSwitchMapsComponent } from './angular/components/merge-switch-maps/merge-switch-maps.component';
 import { AsyncPipeComponent } from './angular/components/async-pipe/async-pipe.component';
 import { GunPowderComponent } from './physics/components/gun-powder/gun-powder.component';
+import { ChemistryListComponent } from './chemistry/components/chemistry-list/chemistry-list.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'app/home', pathMatch: 'full'}, 
@@ -32,6 +33,7 @@ const routes: Routes = [
     { path : 'view-encapsulation', component: ViewEncapsulationComponent },
     { path : 'merge-vs-switch', component: MergeSwitchMapsComponent },
     { path : 'async-pipe', component: AsyncPipeComponent },
+    { path : 'chemistry', component: ChemistryListComponent },
     { path : 'gun-powder', component: GunPowderComponent }
   ]}
 ];

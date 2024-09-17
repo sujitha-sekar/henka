@@ -10,6 +10,7 @@ import { EarthModule } from './earth/earth.module';
 import { PhysicsModule } from './physics/physics.module';
 import { TechnologyModule } from './technology/technology.module';
 import { AngularModule } from './angular/angular.module';
+import { ChemistryModule } from './chemistry/chemistry.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { AngularModule } from './angular/angular.module';
     EarthModule,
     PhysicsModule,
     TechnologyModule,
-    AngularModule
+    AngularModule,
+    ChemistryModule
   ],
   providers: [],
   bootstrap: [AppComponent]
