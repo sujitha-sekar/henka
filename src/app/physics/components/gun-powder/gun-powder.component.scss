@@ -39,7 +39,7 @@
 
 .sub-head {
   margin-left: 75px;
-  color: var(--dark-green-color);
+  color: var(--lavender-color);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 23px;
   font-weight: 400;
@@ -51,6 +51,15 @@
   color: var(--green-color);
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  font-weight: 400;
+  line-height: 1.4em;
+}
+
+.side-content {
+  margin-left: 75px;
+  color: var(--green-color);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
   font-weight: 400;
   line-height: 1.4em;
 }
