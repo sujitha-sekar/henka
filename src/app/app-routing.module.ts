@@ -14,8 +14,8 @@ import { AngularHistoryComponent } from './angular/components/angular-history/an
 import { ViewEncapsulationComponent } from './angular/components/view-encapsulation/view-encapsulation.component';
 import { MergeSwitchMapsComponent } from './angular/components/merge-switch-maps/merge-switch-maps.component';
 import { AsyncPipeComponent } from './angular/components/async-pipe/async-pipe.component';
-import { GunPowderComponent } from './physics/components/gun-powder/gun-powder.component';
 import { ChemistryListComponent } from './chemistry/components/chemistry-list/chemistry-list.component';
+import { GunPowderComponent } from './chemistry/components/gun-powder/gun-powder.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'app/home', pathMatch: 'full'}, 
