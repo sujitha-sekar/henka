@@ -1,0 +1,70 @@
+.winds-outer {
+  background-color: pink;
+  padding-bottom: 20px;
+}
+
+.container {
+  width: 90%;
+  padding: 30px;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 600;
+  color: var(--pink-color);
+  font-family: cursive;
+  margin-bottom: 40px;
+}
+
+.equator {
+  width: 475px;
+  height: auto;
+}
+
+.content1 {
+  font-size: 25px;
+  font-family: cursive;
+  letter-spacing: 2.5px;
+  font-weight: 600;
+  color: var(--dark-orange-color);
+}
+
+.content2 {
+  font-size: 29px;
+  letter-spacing: 2.5px;
+  line-height: 27px;
+  color: var(--blue-color);
+  font-weight: 600;
+  font-family: cursive;
+}
+
+.troposhpere {
+  width: 250px;
+  height: auto;
+}
+
+.method-head {
+  font-size: 26px;
+  line-height: 27px;
+  color: var(--dark-blue-color);
+  font-weight: 600;
+  margin-top: 45px;
+  font-family: Helvetica, sans-serif;
+}
+
+.method-para {
+  font-size: 23px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  color: var(--dark-green-color);
+  font-weight: 600;
+  // margin: 45px 20px 30px 20px;
+  font-family: cursive;
+}
+
+@media screen and (max-width:966px) {
+  .container {
+    width: 100%;
+    padding: 15px;
+  }
+}

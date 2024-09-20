@@ -11,7 +11,7 @@ export class PhysicsListComponent {
   constructor(private router: Router) {}
   earthlist = [
     { image: '../../../../assets/relativity-title.webp', title: 'Work of Realativity', urlLink: 'relativity'},
-    { image: '../../../../assets/winds.jpg', title: 'How to make Gun Powder?', urlLink: ''},
+    { image: '../../../../assets/winds.jpg', title: 'How to Rockets works?', urlLink: 'rocket-propulsion'},
     { image: '../../../../assets/winds.jpg', title: 'Methane & Information about it', urlLink: ''}
   ]
 
