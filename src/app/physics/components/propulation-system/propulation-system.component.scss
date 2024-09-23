@@ -29,13 +29,11 @@
   color: var(--dark-blue-color);
 }
 
-.content2 {
+.type-head {
   font-size: 29px;
-  letter-spacing: 2.5px;
   line-height: 27px;
   color: var(--blue-color);
   font-weight: 600;
-  font-family: cursive;
 }
 
 .troposhpere {
@@ -43,13 +41,12 @@
   height: auto;
 }
 
-.method-head {
-  font-size: 26px;
+.type-content {
   line-height: 27px;
   color: var(--dark-blue-color);
-  font-weight: 600;
-  margin-top: 45px;
-  font-family: Helvetica, sans-serif;
+  margin-bottom: 45px;
+  // font-family: Helvetica, sans-serif;
+  font-family: cursive;
 }
 
 .method-para {
