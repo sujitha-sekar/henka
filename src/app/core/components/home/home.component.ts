@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-home',
@@ -7,12 +8,13 @@ import { Component } from '@angular/core';
 })
 export class HomeComponent {
 
+  constructor(private router: Router) { }
   selectedIndex = 0;
 
   data = [
     { imgUrl: '../../../../assets/fish.jpg', name: 'About Fish', description: 'Some fish, like clownfish, can change their gender during their lifetime' },
     { imgUrl: '../../../../assets/fox.jpg', name: 'Wolf', description: 'Wolves can communicate across distances of up to 10 miles by howling.' },
-    { imgUrl: '../../../../assets/bird.jpg', name: 'Humming Bird', description: 'Hummingbirds are the only birds that can fly backward.' },
+    { imgUrl: '../../../../assets/bird.jpg', name: 'Humming Bird', description: 'Humming bird are the only birds that can fly backward.' },
     { imgUrl: '../../../../assets/mount.jpg', name: 'Mount Everest', description: 'Mount Everest, the highest mountain on Earth, stands at 29,032 feet (8,848 meters) above sea level.' },
   ]
 
@@ -28,4 +30,7 @@ export class HomeComponent {
     },5000);
   }
 
+  navigate(data: string) {
+    this.router.navigate([`app/${data}`]);
+  }
 }

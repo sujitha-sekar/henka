@@ -17,6 +17,7 @@ import { AsyncPipeComponent } from './angular/components/async-pipe/async-pipe.c
 import { ChemistryListComponent } from './chemistry/components/chemistry-list/chemistry-list.component';
 import { GunPowderComponent } from './chemistry/components/gun-powder/gun-powder.component';
 import { PropulationSystemComponent } from './physics/components/propulation-system/propulation-system.component';
+import { LandingPageComponent } from './tamil/components/landing-page/landing-page.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'app/home', pathMatch: 'full'}, 
@@ -36,7 +37,8 @@ const routes: Routes = [
     { path : 'async-pipe', component: AsyncPipeComponent },
     { path : 'chemistry', component: ChemistryListComponent },
     { path : 'gun-powder', component: GunPowderComponent },
-    { path : 'rocket-propulsion', component: PropulationSystemComponent }
+    { path : 'rocket-propulsion', component: PropulationSystemComponent },
+    { path: 'tamil', component: LandingPageComponent }
   ]}
 ];
 

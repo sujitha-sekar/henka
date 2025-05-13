@@ -11,6 +11,7 @@ import { PhysicsModule } from './physics/physics.module';
 import { TechnologyModule } from './technology/technology.module';
 import { AngularModule } from './angular/angular.module';
 import { ChemistryModule } from './chemistry/chemistry.module';
+import { TamilModule } from './tamil/tamil.module';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ChemistryModule } from './chemistry/chemistry.module';
     PhysicsModule,
     TechnologyModule,
     AngularModule,
-    ChemistryModule
+    ChemistryModule,
+    TamilModule
   ],
   providers: [],
   bootstrap: [AppComponent]
