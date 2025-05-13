@@ -18,6 +18,7 @@ import { ChemistryListComponent } from './chemistry/components/chemistry-list/ch
 import { GunPowderComponent } from './chemistry/components/gun-powder/gun-powder.component';
 import { PropulationSystemComponent } from './physics/components/propulation-system/propulation-system.component';
 import { LandingPageComponent } from './tamil/components/landing-page/landing-page.component';
+import { ListPageComponent } from './tamil/components/list-page/list-page.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'app/home', pathMatch: 'full'}, 
@@ -38,7 +39,8 @@ const routes: Routes = [
     { path : 'chemistry', component: ChemistryListComponent },
     { path : 'gun-powder', component: GunPowderComponent },
     { path : 'rocket-propulsion', component: PropulationSystemComponent },
-    { path: 'tamil', component: LandingPageComponent }
+    { path: 'tamil', component: LandingPageComponent },
+    { path: 'tamil-list', component: ListPageComponent }
   ]}
 ];
 
